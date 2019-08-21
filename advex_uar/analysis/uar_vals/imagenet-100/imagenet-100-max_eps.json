@@ -1,0 +1,11 @@
+{"clean":1,
+ "pgd_linf":32,
+ "pgd_l2":4800,
+ "fw_l1":4.1,
+ "jpeg_linf":2,
+ "jpeg_l2":256,
+ "jpeg_l1":131072,
+ "elastic":16,
+ "fog":8192,
+ "gabor":3200,
+ "snow":8}

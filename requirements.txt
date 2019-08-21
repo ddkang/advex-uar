@@ -1,0 +1,7 @@
+click
+numpy
+Pillow
+torch==1.01
+scipy
+torchvision==0.2.2
+horovod==0.16.4
