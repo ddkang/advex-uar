@@ -1,9 +1,9 @@
 Testing Robustness Against Unforeseen Adversaries
 =================================================
 
-This repository contains code and trained models for the paper [Testing Robustness Against Unforeseen Adversaries](https://LINK) by [Daniel Kang*](https://ddkang.github.io/), [Yi Sun*](https://yisun.io), [Dan Hendrycks](https://people.eecs.berkeley.edu/~hendrycks/), [Tom Brown](https://github.com/nottombrown), and [Jacob Steinhardt](https://www.stat.berkeley.edu/~jsteinhardt/).
+This repository contains code and trained models for the paper [Testing Robustness Against Unforeseen Adversaries](http://arxiv.org/abs/1908.08016) by [Daniel Kang*](https://ddkang.github.io/), [Yi Sun*](https://yisun.io), [Dan Hendrycks](https://people.eecs.berkeley.edu/~hendrycks/), [Tom Brown](https://github.com/nottombrown), and [Jacob Steinhardt](https://www.stat.berkeley.edu/~jsteinhardt/).
 
-More specifically, we provide implementations and code to evaluate the Unforeseen Attack Robustness (UAR) metric from [our paper](https://LINK) for the following adversarial attacks: L<sub>&infin;</sub>, L<sub>2</sub>, L<sub>1</sub>, L<sub>&infin;</sub>-JPEG, L<sub>2</sub>-JPEG, L<sub>1</sub>-JPEG, Elastic, Fog, Gabor, Snow. For each attack, we release calibrated distortion sizes and adversarially trained ResNet-50 models at these sizes for ImageNet-100, a 100-class subset of ImageNet.
+More specifically, we provide implementations and code to evaluate the Unforeseen Attack Robustness (UAR) metric from [our paper](http://arxiv.org/abs/1908.08016) for the following adversarial attacks: L<sub>&infin;</sub>, L<sub>2</sub>, L<sub>1</sub>, L<sub>&infin;</sub>-JPEG, L<sub>2</sub>-JPEG, L<sub>1</sub>-JPEG, Elastic, Fog, Gabor, Snow. For each attack, we release calibrated distortion sizes and adversarially trained ResNet-50 models at these sizes for ImageNet-100, a 100-class subset of ImageNet.
 
 Table of contents
 =================
