@@ -222,3 +222,14 @@ The table below presents ATA values at the calibrated distortion sizes.  These v
 |ATA(L<sub>&infin;</sub>-JPEG, &epsilon;)|89.7|87.0|83.1|78.6|69.7|35.4|
 |ATA(L<sub>1</sub>-JPEG, &epsilon;)|91.4|88.1|80.2|68.9|56.3|37.7|
 |ATA(Elastic, &epsilon;)|87.4|81.3|72.1|58.2|45.4|27.8|
+
+## Citation
+
+If you find this useful in your research, please consider citing:
+
+    @article{kang2019robustness,
+      title={Testing Robustness Against Unforeseen Adversaries},
+      author={Daniel Kang and Yi Sun and Dan Hendrycks and Tom Brown and Jacob Steinhardt},
+      journal={arXiv preprint arXiv:1908.08016},
+      year={2019}
+    }
