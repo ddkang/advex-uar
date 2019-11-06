@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
         name='advex-uar',
-        version='0.0.4.dev',
+        version='0.0.5.dev',
         author='Daniel Kang',
         author_email='daniel.d.kang@gmail.com',
         url='https://github.com/ddkang/advex-uar/',
