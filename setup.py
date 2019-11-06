@@ -5,10 +5,10 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
         name='advex-uar',
-        version='0.0.1.dev',
+        version='0.0.3.dev',
         author='Daniel Kang',
         author_email='daniel.d.kang@gmail.com',
         url='https://github.com/ddkang/advex-uar/',
-        packages=['advex_uar'],
+        packages=setuptools.find_packages(),
         license='Apache',
 )
