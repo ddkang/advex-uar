@@ -56,7 +56,7 @@ class PGDAttack(AttackWrapper):
             elif self.norm == 'l2':
                 batch_size = delta.data.size()[0]
                 grad_norm = torch.norm(grad.view(batch_size, -1), 2.0, dim=1)
-                normalized_grad = grad / grad_norm[:, None, None, None]                
+                normalized_grad = grad / (grad_norm[:, None, None, None] + 1e-8)
                 delta.data = delta.data + step_size[:, None, None, None] * normalized_grad
                 l2_delta = torch.norm(delta.data.view(batch_size, -1), 2.0, dim=1)
                 # Check for numerical instability

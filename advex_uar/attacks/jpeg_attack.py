@@ -66,7 +66,7 @@ class JPEGAttack(AttackWrapper):
             elif self.opt == 'l2':
                 batch_size = pixel_inp.size()[0]
                 grad_norm = torch.norm(grad.view(batch_size, -1), 2.0, dim=1)
-                normalized_grad = grad / grad_norm[:, None]                
+                normalized_grad = grad / (grad_norm[:, None] + 1e-8)
                 cat_var.data = cat_var.data + step_size[:, None] * normalized_grad
                 l2_delta = torch.norm(cat_var.data.view(batch_size, -1), 2.0, dim=1)
                 proj_scale = torch.min(torch.ones_like(l2_delta, device='cuda'), base_eps / l2_delta)
