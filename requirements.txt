@@ -1,7 +1,7 @@
 click
 numpy
 Pillow
-torch==1.01
+torch==2.2.0
 scipy
 torchvision==0.2.2
 horovod==0.16.4
